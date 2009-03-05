@@ -1,0 +1,18 @@
+ja: 
+  activerecord: 
+    models: 
+      user: "ユーザ"
+    attributes: 
+      user: 
+        login: "ログイン"
+        name: "名前"
+        email: "Eメール"
+        crypted_password: "暗号化パスワード"
+        salt: "塩"
+        created_at: "で作成"
+        updated_at: "で更新"
+        remember_token: "覚えてトークン"
+        remember_token_expires_at: "トークンの有効期限が切れる忘れないで"
+        activation_code: "アクティベーション・コード"
+        activated_at: "でアクティブ"
+
