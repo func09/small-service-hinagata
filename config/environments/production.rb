@@ -22,3 +22,14 @@ config.action_controller.perform_caching             = true
 
 # Disable delivery errors, bad email addresses will be ignored
 # config.action_mailer.raise_delivery_errors = false
+
+# Use gmail smtp.
+# ActionMailer::Base.smtp_settings = {
+#     :tls => true,
+#     :address => "smtp.gmail.com",
+#     :port => "587",
+#     :domain => "YOURDOMAIN",
+#     :authentication => :plain,
+#     :user_name => "GOOGLEUSERNAME",
+#     :password => "GOOGLEPASSWORD" 
+# }
