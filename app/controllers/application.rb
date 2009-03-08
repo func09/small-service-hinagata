@@ -9,6 +9,9 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # :secret => '7d11dbb2c07cf410d3db64edcb1c1296'
   
   include AuthenticatedSystem
+  # You can move this into a different controller, if you wish.  This module gives you the require_role helpers, and others.
+  include RoleRequirementSystem
+
   
   # See ActionController::Base for details 
   # Uncomment this to filter the contents of submitted sensitive data parameters
