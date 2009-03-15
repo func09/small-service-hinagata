@@ -1,0 +1,12 @@
+<ul>
+  <li>Home</li>
+  <% if admin? %>
+  <li>管理画面</li>
+  <% end %>
+  <% if logged_in? %>
+  <li><%= link_to 'ログアウト',logout_path %></li>
+  <% else %>
+  <li><%= link_to '新規登録', signup_path %></li>
+  <li><%= link_to 'ログイン', login_path %></li>
+  <% end %>
+</ul>
